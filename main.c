@@ -4,6 +4,21 @@
 
 int main()
 {
+	price_per_year(125.0, 24.0, 365.0, 0.28);
+	return 0.0;
+}
+
+float price_per_year(float wattage, int hours_a_day, int days_a_year, float price_per_kwh)
+{
+	float usage_wh = wattage * hours_a_day * days_a_year;
+	float usage_kwh = usage_wh / 1000;
+	float p = usage_kwh * price_per_kwh;
+	printf("Power used: %.2fWh (%.2fkWh)\nPrice: %.2f Euro", usage_wh, usage_kwh, p);
+	return 0.0;
+}
+
+float info()
+{
 	float wattage = 0;
 	float hours_a_day = 0;
 	float days_a_year = 0;
@@ -30,12 +45,5 @@ int main()
 	printf("Hours a day: %f\n", hours_a_day);
 	printf("Days a year: %f\n", days_a_year);
 	printf("Price per kWh: %f\n", price_per_kwh);
-}
-
-float price_per_year(float wattage, float hours_a_day, float days_a_year, float price_per_kwh)
-{
-	float usage_wh = wattage * hours_a_day * days_a_year;
-	float usage_kwh = usage_wh / 1000;
-	float p = usage_kwh * price_per_kwh;
-	return printf("Consumption per year \nPower used: %fWh (%fkWh)\nPrice: %.2f%€", usage_wh, usage_kwh, p);
+	return 0.0;
 }
