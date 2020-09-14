@@ -7,7 +7,7 @@ long long multi(long long a, long long b);
 long long div(long long a, long long b);
 long long power(long long a, long long b);
 
-int calc()
+int main()
 {
     char Operator;
     long long num1, num2, result = 0;

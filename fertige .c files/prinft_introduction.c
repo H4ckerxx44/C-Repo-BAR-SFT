@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int prinft()
+int main()
 {
 	char name[] = "Dennis";
 	int age = 21;
