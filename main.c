@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 
-int main()
+float main()
 {
-	price_per_year(125.0, 24.0, 365.0, 0.28);
+	float price_per_year(float, int, int, float);
+	price_per_year(125.0, 24, 365, 0.28);
 	return 0.0;
 }
 
