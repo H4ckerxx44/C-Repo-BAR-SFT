@@ -414,3 +414,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Custom
+C-Repo, BAR-SFT/*
+x64/*
+.vs/*
+.git/*
