@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-int number_printing()
+int main()
 {
     int num = 0;
 

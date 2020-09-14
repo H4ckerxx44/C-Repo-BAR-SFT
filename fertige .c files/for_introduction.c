@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int for_loop() {
+int main() {
 
 	int n;
 	/*for (n = 0; n < 5; n = n + 1) 
