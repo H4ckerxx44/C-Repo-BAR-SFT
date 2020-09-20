@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+/* main function */
 int main() {
 
 	int n;
